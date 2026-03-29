@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM propentatech/portfolios-formation-dev-web2026:latest
 
 RUN mkdir /usr/share/nginx/html/portfolio-laurenanjeugoue-byte/
 RUN rm -rf /usr/share/nginx/html/portfolio-laurenanjeugoue-byte/*
