@@ -1,4 +1,4 @@
-# Stage 1 : récupérer tous les portfolios existants
+# Stage 1 : récupérer tous les portfolios existants 
 FROM propentatech/portfolios-formation-web2026:latest AS source
 
 # Stage 2 : image plate depuis nginx:alpine
